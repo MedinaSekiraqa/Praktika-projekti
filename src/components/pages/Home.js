@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import { InfoConsumer } from './context';
 import Info from './info';
+import Accordion from './Accordion'
 
 class Home extends Component{
     render(){
         return(
+            <>
+
             <div className='container'>
                 <div className='row mt-5'>
 
@@ -17,6 +20,17 @@ class Home extends Component{
                         </InfoConsumer> 
                 </div>
             </div>
+
+            <br/>
+
+            <Accordion/>
+
+
+            <br/>
+           
+
+            </>
+            
 
 
 
