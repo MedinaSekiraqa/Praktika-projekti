@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { InfoConsumer } from './context';
 import Info from './info';
 import Accordion from './Accordion'
+import CarouselContainer from './CarouselContainer';
+
 
 class Home extends Component{
     render(){
@@ -22,9 +24,17 @@ class Home extends Component{
             </div>
 
             <br/>
+       
+            
 
             <Accordion/>
 
+
+            <br/>
+
+
+
+            <CarouselContainer/>
 
             <br/>
            
