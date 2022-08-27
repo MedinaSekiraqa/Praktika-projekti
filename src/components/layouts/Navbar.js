@@ -10,16 +10,17 @@ function NavScrollExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container fluid>
-        <Navbar.Brand >Navbar scroll</Navbar.Brand>
+        <Navbar.Brand >Library Sistem </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto my-2 my-lg-0 text-white text-uppercase ml-5"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
             <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
             <Nav.Link as={Link} to={"/Login"}>LogIn</Nav.Link>
+            <Nav.Link as={Link} to={"/services"}>Services</Nav.Link>
             
         
           </Nav>

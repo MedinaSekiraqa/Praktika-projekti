@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import pages
 import LogIn from "./components/pages/LogIn"
 import Home from "./components/pages/Home"
+import Services from './components/pages/Services'
 
 //React Router Import
 import { Route, Routes}from "react-router-dom"
@@ -28,6 +29,7 @@ function App() {
        <Routes>
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<LogIn/>}/>
+        <Route path="/services" element={<Services/>}/>
        </Routes>
 
        

@@ -15,7 +15,7 @@ export const placeInfo = [
   {
     id: 2,
     headerTitle: 'Anxious People',
-    headerSubTitle: 'by',
+    headerSubTitle: 'by Fredrik Backman’s',
     headerText:
       'Fredrik Backman’s books are the embodiment of sunshine, cookies, and warm hugs in literary format, or at least that’s what I like to think they are',
     title: 'Lorem unitye',
