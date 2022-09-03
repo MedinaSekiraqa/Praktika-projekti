@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LogIn from "./components/pages/LogIn"
 import Home from "./components/pages/Home"
 import Services from './components/pages/Services'
+import AboutUs from './components/pages/AboutUs';
 
 //React Router Import
 import { Route, Routes}from "react-router-dom"
@@ -30,6 +31,7 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<LogIn/>}/>
         <Route path="/services" element={<Services/>}/>
+        <Route path="/aboutus" element={<AboutUs/>}/>
        </Routes>
 
        
