@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 class Info extends Component{
     render(){
         const{
-            id,
+            
             headerTitle,
             headerSubTitle,
             headerText,

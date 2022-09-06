@@ -1,10 +1,11 @@
 
 import * as React from "react";
 import "./AboutUs.scss";
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Video from './Video';
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function About() {
   const [users, setUsers] = React.useState([]);
@@ -23,14 +24,16 @@ export default function About() {
         <br/>
 
         <Video/>
-        
+
         <br/>
+
+        
       <div className="flex">
         {users.length &&
           users.map((user) => {
             return (
                 <Card style={{ width: '18rem' }}>
-                    <img key={user.avatar} src={user.avatar}/>
+                    <img key={user.avatar} src={user.avatar} alt=""/>
                     <Card.Body>
                     <Card.Title>
                     <p>
@@ -40,9 +43,13 @@ export default function About() {
                     <Card.Text>
                         <p>{user.email}</p>
                     </Card.Text>
+
+                    <Link to="/biografy"
+                    className="btn btn-outline-primary text-uppercaser"
+                    >Read More</Link>
                 
                 
-                <Button variant="primary">Biography</Button>
+                
                 </Card.Body>
                 </Card>
             );
