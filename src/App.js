@@ -8,6 +8,7 @@ import Home from "./components/pages/Home"
 import Services from './components/pages/Services'
 import AboutUs from './components/pages/AboutUs';
 import Biografy from './components/pages/Biografy';
+import ContactUs from './components/pages/ContactUs';
 
 //React Router Import
 import { Route, Routes}from "react-router-dom"
@@ -34,6 +35,7 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/biografy" element={<Biografy/>}/>
+        <Route path="/contactus" element={<ContactUs/>}/>
        </Routes>
 
        
